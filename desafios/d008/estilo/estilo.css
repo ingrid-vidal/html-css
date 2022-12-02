@@ -1,0 +1,29 @@
+@charsetUTF-8;
+
+a{
+    text-decoration: none;
+}
+.azul{
+    color: rgba(0,0,155);
+}
+.azul:hover{
+    color:rgb(10, 145, 255);
+}
+.verde{
+    color:rgb(0, 156, 0);
+}
+.verde:hover{
+    color:rgb(170, 248, 216);
+}
+.rosa{
+    color:rgb(231, 37, 69);
+}
+.rosa:hover{
+    color:rgb(248, 170, 222);
+}
+.roxo{
+    color:rgb(139, 35, 236);
+}
+.roxo:hover{
+    color:rgb(223, 170, 248);
+}

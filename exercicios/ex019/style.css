@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Xanh+Mono:ital@0;1 & display=swap');
+
+body{
+    background-color:rgba(255, 181, 207, 0.819);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font: 2em 'Xanh Mono', monospace;
+    color:rgb(182, 123, 3)
+}
+
+h1#principal{
+    font: italic 2em 'Xanh Mono', monospace;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(74, 50, 1, 0.386) ;
+}
+
+h2{
+    font: lighter 1.5em arial,helvetica,sans-serif;
+    color: rgb(83, 50, 0);
+}
+
+p{
+    text-indent: 2em;
+    font: lighter 1em arial, helvetica, sans-serif;
+}

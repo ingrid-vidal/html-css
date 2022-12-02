@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-ico">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color:blue
+        }
+        div>img{
+            display:none;
+        }
+        div:hover > img{
+            display:block;
+        }
+        div:hover{
+            background-color: rgba(0, 255, 255, 0.545);
+            color:rgb(255, 49, 49);
+            width:300px;
+            height:300px;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(255, 168, 45);
+        }
+        a:visited{
+            color:rgb(198, 115, 0);
+        }
+        a:active{
+            color:chartreuse;
+        }
+        a:hover{
+            color:rgb(253, 191, 105);
+            text-decoration: underline;
+        }
+        a::after{
+            content: ' [link]';
+            color:#cccccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando pseudo-classes</h1>
+    <p>Essa é a pseudo-classe :hover</p>
+    <div>
+        passe o mouse aqui!!
+        <img src="favicon.ico" alt="homer">
+    </div>
+    <P>fIM...</P>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://web.whatsapp.com/" target="_blank">whatsapp</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+    </ul>
+</body>
+</html>
