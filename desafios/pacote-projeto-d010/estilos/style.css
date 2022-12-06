@@ -163,12 +163,14 @@ footer p{
     text-align: center;
     color: white;
     font-size: .9em;
+    padding: 7px;
+    margin-top: 10px;
 }
 footer a{
     text-decoration: none;
-    color: var(--escuro);
+    color: var(--claro);
 }
 footer a:hover{
-    color: var(--claro);
+    color: var(--qbranco);
     text-decoration: underline;
 }
