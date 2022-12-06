@@ -31,10 +31,9 @@ a.fora::after{
     content: '\1F517';
 }
 header{
-    display: block;
     width: 100%;
     background-image: linear-gradient(to top,var(--escuro),var(--claro));
-    min-height:200px;
+    min-height:150px;
     padding-top: 40px;
     text-align: center;
 }
