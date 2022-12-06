@@ -60,9 +60,8 @@ nav > a{
     transition-duration: .5s;
 }
 nav > a:hover{
-    background-color: var(--clarissimo);
+    text-decoration: underline;
     color: var(--escuro);
-    border-radius: 5px;
 }
 main{
     background-color: white;
