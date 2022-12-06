@@ -32,11 +32,10 @@ a.fora::after{
 }
 header{
     background-image: linear-gradient(to top,var(--escuro),var(--claro));
-    min-height:150px;
-    text-align: center;
+    min-height:200px;
     padding-top: 40px;
-    min-width:400px;
-    max-width:800px;
+    text-align: center;
+    box-shadow: px 2px 5px rgba(0, 0, 0, 0.533) ;
 }
 header > h1{
     font: bolder 3.5em "oswald",sans-serif;
@@ -47,18 +46,17 @@ header > p{
     font: bolder 1.5em "oswald",sans-serif;
     color: white; 
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.533);
-    text-align: center;
-    max-width: 600px;
 }
 nav{
    background-color: var(--escuro);
-   padding: 10px;
+   padding: 20px;
    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.167);
 }
 nav > a{
     text-decoration: none;
     color: var(--qbranco);
     padding: 10px;
+    margin: 10px;
     margin-left: 30px;
     transition-duration: .5s;
 }
@@ -107,7 +105,7 @@ main a{
 }
 main a:hover{
     text-decoration: underline;
-    color: var(--claro);
+    color: var(--qbranco);
 }
 main strong{
     font-style: italic;
