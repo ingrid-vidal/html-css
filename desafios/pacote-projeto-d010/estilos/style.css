@@ -31,12 +31,12 @@ a.fora::after{
     content: '\1F517';
 }
 header{
+    display: block;
+    width: 100%;
     background-image: linear-gradient(to top,var(--escuro),var(--claro));
     min-height:200px;
-    min-width: 300px;
     padding-top: 40px;
     text-align: center;
-    box-shadow: px 2px 5px rgba(0, 0, 0, 0.533) ;
 }
 header > h1{
     font: bolder 3.5em "oswald",sans-serif;
