@@ -104,7 +104,7 @@ main a{
 }
 main a:hover{
     text-decoration: underline;
-    color: var(--qbranco);
+    color: var(--claro);
 }
 main strong{
     font-style: italic;
