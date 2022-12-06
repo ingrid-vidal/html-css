@@ -155,10 +155,12 @@ abbr{
     text-decoration: none;
 }
 footer{
+    background-color: var(--escuro);
     text-align: center;
     padding: 10px;
 }
 footer p{
+    text-align: center;
     color: white;
     font-size: .9em;
 }
