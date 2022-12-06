@@ -31,7 +31,6 @@ a.fora::after{
     content: '\1F517';
 }
 header{
-    width: 100%;
     background-image: linear-gradient(to top,var(--escuro),var(--claro));
     min-height:150px;
     padding-top: 40px;
