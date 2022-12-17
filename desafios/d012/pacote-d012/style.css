@@ -3,28 +3,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 body{
-    background-color: white;
+    background-color: darkgray;
+    min-height: 100vh;
 }
 
 header{
     background-color: black;
     color: white;
-    height: 30vh;
+    text-align: center;
 }
 
 header h1{
-    text-align: center;
-    padding-top: 40px;
-    font: 700 10vw 'Passion One', Verdana, Arial, 'Sans-serif';
+    padding-top: 50px;
+    font: 10vw 'Passion One', Verdana, Arial, 'Sans-serif';
+    font-variant: small-caps;
 } 
 
 header h3{
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 1.3vh;
+    font: 1.1em verdana,arial,'sans-serif' ;
+    padding-bottom: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a::after{
+    content:  '\1F517';
 }
