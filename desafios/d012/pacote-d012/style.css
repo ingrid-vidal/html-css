@@ -57,6 +57,10 @@ section{
     font: 3.5vw var(--font2);
 }
 
+section p{
+    padding-bottom: 20px;
+}
+
 section.normal{
     background-color: white;
 }
