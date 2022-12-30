@@ -10,7 +10,6 @@
             background-color: rgba(216, 245, 216, 0.678);
         }
         table{
-            background-color: rgb(245, 245, 243);
             margin: auto;
             padding: 10px;
             border-collapse: collapse;
@@ -19,7 +18,7 @@
            
         }
         caption{
-            background-image: linear-gradient(to right, rgb(182, 240, 182),rgb(245, 245, 158));
+            background-color: lightgrey;
             padding: 8px;
             border: 1px solid black;
             border-radius: 20px 20px 0px 0px;
@@ -28,17 +27,25 @@
             border: 1px solid black;
             text-align: left;
             text-indent: 10px;
+            padding: 6px;
         }
         th{
             text-align: center;
         }
         thead, tfoot{
            
-            background-color: rgba(128, 128, 128, 0.527);
+            background-color: rgb(102, 100, 100);
+            color: white;
         }
         .num{
             text-align: right;
             padding-right: 10px;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray ;
+        }
+        tbody > tr:nth-child(even){
+            background-color: white;
         }
     </style>
 </head>
@@ -47,9 +54,9 @@
         <caption>População brasileira</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th class="num">População 2010</th>
-                <th class="num">População 2021</th>
+                <th scope="col">Estados</th>
+                <th scope="col" style="width: 100px;">População 2010</th>
+                <th scope="col" style="width: 100px;">População 2021</th>
             </tr>
         </thead>
         <tbody>
@@ -191,7 +198,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num" class="cinza">190.755.799</td>
                 <td class="num" class="cinza">212,707.452</td>
             </tr>
